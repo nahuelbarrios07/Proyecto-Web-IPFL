@@ -1,0 +1,59 @@
+body{
+    padding:0;
+    margin:0;
+}
+
+#encabezado {
+	margin-left: 55px;
+	height: 80px;
+    width: 163px;
+	border-radius: 5px;
+}
+
+.título{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#img-pedidos{
+    margin-left: 55px;
+    margin-top: 30px;
+    width: 350px;
+    height: 200px;
+    float: left;
+}
+
+#usuario{
+    font-family: 'Montserrat', sans-serif;
+    text-align: end;
+    margin-right: 55px;
+}
+#texto-hamburguesa{
+    font-family: 'Montserrat', sans-serif;
+    float: left;
+}
+
+#texto2{
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+}
+
+#precio-final-hamburguesa{
+    font-family: 'Montserrat', sans-serif;
+    font-size: xx-large;
+    display: inline-block;
+    margin-right: 55px;
+}
+
+#comprarMenu{
+    font-family: 'Montserrat', sans-serif;
+    color: aliceblue;
+    font-size: medium;
+    background-color: #fa2929;
+    border-color:#fa2929 ;
+    height: 30px;
+    width: 163px;
+    margin: 20px 55px 20px;
+    float: right;   
+}
+
