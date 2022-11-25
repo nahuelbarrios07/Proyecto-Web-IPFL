@@ -57,3 +57,57 @@ body{
     float: right;   
 }
 
+#img-pedidos2{
+    margin-left: 55px;
+    margin-top: 30px;
+    width: 350px;
+    height: 200px;
+    float: left;
+}
+
+#usuario{
+    font-family: 'Montserrat', sans-serif;
+    text-align: end;
+    margin-right: 55px;
+}
+#texto-hamburguesa2{
+    font-family: 'Montserrat', sans-serif;
+    float: left;
+}
+
+#texto3{
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+}
+
+#precio-final-hamburguesa2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: xx-large;
+    display: inline-block;
+    margin-right: 55px;
+}
+
+#img-pedidos3{
+    margin-left: 55px;
+    margin-top: 30px;
+    width: 350px;
+    height: 200px;
+    float: left;
+}
+
+#texto-hamburguesa3{
+    font-family: 'Montserrat', sans-serif;
+    float: left;
+}
+
+#texto4{
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+}
+
+#precio-final-hamburguesa3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: xx-large;
+    display: inline-block;
+    margin-right: 55px;
+}
