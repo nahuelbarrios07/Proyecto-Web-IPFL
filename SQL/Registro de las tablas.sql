@@ -22,14 +22,14 @@ INSERT INTO producto (id_producto,descripcion,proveedor) VALUES ('PR008','1 doce
 
 --Ingreso de registros en la tabla pedido.
 
-INSERT INTO pedido (producto,usuario,cantidad,id_factura,monto) VALUES ('PR001','nahuel_alvarado',1,1400.00);
-INSERT INTO pedido (producto,usuario,cantidad,id_factura,monto) VALUES ('PR002','thiago_corvalan',2,3100.00);
-INSERT INTO pedido (producto,usuario,cantidad,id_factura,monto) VALUES ('PR001','natalia_correa',2,2800.00);
-INSERT INTO pedido (producto,usuario,cantidad,id_factura,monto) VALUES ('PR004','thiago_corvalan',3,3100.00);
-INSERT INTO pedido (producto,usuario,cantidad,id_factura,monto) VALUES ('PR006','hernan_gonzalez',1,800.00);
-INSERT INTO pedido (producto,usuario,cantidad,id_factura,monto) VALUES ('PR007','natalia_correa',2,2700.00);
-INSERT INTO pedido (producto,usuario,cantidad,id_factura,monto) VALUES ('PR002','florencia_vazquez',2,3100.00);
-INSERT INTO pedido (producto,usuario,cantidad,id_factura,monto) VALUES ('PR002','hernan_gonzalez',1,1550.00);
+INSERT INTO pedido (producto,usuario,cantidad,id_factura,monto) VALUES ('Hamburguesa','nahuel_alvarado',1,'F002',1400.00);
+INSERT INTO pedido (producto,usuario,cantidad,id_factura,monto) VALUES ('Pizza Especial','thiago_corvalan',2,'F005',3100.00);
+INSERT INTO pedido (producto,usuario,cantidad,id_factura,monto) VALUES ('Hamburguesa','natalia_correa',2,'F006',2800.00);
+INSERT INTO pedido (producto,usuario,cantidad,id_factura,monto) VALUES ('Ensalada Cesar','thiago_corvalan',3,'F001',3100.00);
+INSERT INTO pedido (producto,usuario,cantidad,id_factura,monto) VALUES ('Alfajores helados','hernan_gonzalez',1,'F003',800.00);
+INSERT INTO pedido (producto,usuario,cantidad,id_factura,monto) VALUES ('Pizza Frizzio','natalia_correa',2,'F008',2700.00);
+INSERT INTO pedido (producto,usuario,cantidad,id_factura,monto) VALUES ('Pizza Especial','florencia_vazquez',2,'F007',3100.00);
+INSERT INTO pedido (producto,usuario,cantidad,id_factura,monto) VALUES ('Pizza Especial','hernan_gonzalez',1,'F004',1550.00);
 
 --Ingreso de registros en la tabla factura.
 
