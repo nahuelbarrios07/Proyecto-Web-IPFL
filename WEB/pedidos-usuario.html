@@ -5,17 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="pedidos-usuario.css">
+    <link rel="icon" href="imagenes/Logo Pedidos Ya.png">
+    <script src="ir-a-3ra-pantalla.js"></script>
+    <script src="sesion-usuario-2da-pant.js"></script>
     <title>Pedidos Ya</title>
 </head>
 <body>
     <!--Logo de Pedidos Ya-->
-    <div>
-        <img id="encabezado" src="https://upload.wikimedia.org/wikipedia/commons/c/c5/Isologotipo_PedidosYa.jpg" alt="Logo Pedidos Ya">
-    </div>
-    <!--Le da la bienvenida al usuario-->
-    <div>
-        <p id="usuario"><script src="pedidos-usuario.js"></script></p>
-    </div>
+    <header class="inicio">
+        <div>
+            <img id="encabezado" src="https://www.vp.com.uy/images/logo-confia-2.png" alt="Logo Pedidos Ya">
+            <input id="cerrar-sesion" type="button" value="Cerrar sesión" onclick="cerrarSesion()">
+        </div>
+    </header>
     <div class="título">
         <h1>COMBOS DEL DIA</h1>
         <p>¡Hacé tu pedido YA!</p>
@@ -27,7 +29,7 @@
         <h1 id="texto-hamburguesa">Combo Burger</h1>
         <h2 id="texto2">Hamburguesa completa + vaso de gaseosa grande (a elección) <br> + papas fritas medianas</h2>
         <h2 id="precio-final-hamburguesa">$1400,00</h2>
-        <button id="comprarMenu">Comprar menú</button>
+        <input type="button" value="Comprar Menu" id="comprarMenu1" onclick="comprarMenu()">
     </div>
     <!--2do combo-->
     <div class="menu2">
@@ -36,7 +38,7 @@
         <h1 id="texto-hamburguesa2">Combo Familiar XXL Burger</h1>
         <h2 id="texto3">Dos BIG MC + Cuarto de LIBRA + Mc Pollo <br> + 4 papas y gaseosa grandes.</h2>
         <h2 id="precio-final-hamburguesa2">$5000,00</h2>
-        <button id="comprarMenu">Comprar menú</button>
+        <input type="button" value="Comprar Menu" id="comprarMenu2" onclick="comprarMenu()">
     </div>
      <!--3er combo-->
      <div class="menu3">
@@ -45,8 +47,12 @@
         <h1 id="texto-hamburguesa3">Combo Familiar Burger</h1>
         <h2 id="texto4">BiG MC + Cuarto de Libra + Cajita Feliz <br> + papas y gaseosas regulares.</h2>
         <h2 id="precio-final-hamburguesa3">$3750,00</h2>
-        <button id="comprarMenu">Comprar menú</button>
+        <input type="button" value="Comprar Menu" id="comprarMenu3" onclick="comprarMenu()">
     </div>
-
+    <footer>
+        <img id="encabezado-final" src="https://www.vp.com.uy/images/logo-confia-2.png" alt="Pedidos Ya">
+        <p id="pie-de-pagina">Este es una página web creada por Matías Romero, Emmanuel González y Nahuel Barrios <br>
+        para el proyecto de Programación Web del IPFL.</p>
+    </footer>
 </body>
 </html>

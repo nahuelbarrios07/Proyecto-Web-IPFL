@@ -3,11 +3,31 @@ body{
     margin:0;
 }
 
-#encabezado {
-	margin-left: 55px;
-	height: 80px;
-    width: 163px;
-	border-radius: 5px;
+#encabezado{
+    background-color: #ff004c;
+    padding-left: 25px;
+    padding-right: 1200px;
+	height: 70px;
+    width: 240px;
+}
+
+#encabezado-final{
+    background-color: #ff004c;
+    padding-left: 1200px;
+    padding-right: 25px;
+	height: 70px;
+    width: 240px;
+}
+
+#pie-de-pagina{
+    background-color: #ff004c;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+#cerrar-sesion{
+    margin-left: 1220px;
 }
 
 .título{
@@ -110,4 +130,10 @@ body{
     font-size: xx-large;
     display: inline-block;
     margin-right: 55px;
+}
+
+.pie-de-pagina{
+    background-color: #ff004c;
+    color: azure;
+    font-family: 'Montserrat', sans-serif;
 }

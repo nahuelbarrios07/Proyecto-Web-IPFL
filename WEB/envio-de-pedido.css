@@ -1,0 +1,17 @@
+body{
+    padding:0;
+    margin:0;
+}
+
+.formulario{
+    text-align: center;
+}
+
+#encabezado{
+    background-color: #ff004c;
+    padding-left: 25px;
+    padding-right: 1200px;
+	height: 70px;
+    width: 240px;
+}
+
