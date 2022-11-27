@@ -28,6 +28,10 @@ body{
 
 #cerrar-sesion{
     margin-left: 1220px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    background-color: #fa2929;
+    border-color:#fa2929 ;
 }
 
 .título{
@@ -65,7 +69,45 @@ body{
     margin-right: 55px;
 }
 
-#comprarMenu{
+
+
+#menu{
+    width: 50%;
+    margin: 20px auto;
+    padding: 15px;
+  }
+
+#img-pedidos{
+    float: left;
+    margin-right: 15px;
+    width: 350px;
+    height: 200px;
+}
+
+#usuario{
+    font-family: 'Montserrat', sans-serif;
+    text-align: end;
+    margin-right: 55px;
+}
+
+#texto2{
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+#texto3{
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+#precio-final{
+    font-family: 'Montserrat', sans-serif;
+    font-size: xx-large;
+    display: inline-block;
+    margin-right: 55px;
+}
+
+#comprarMenu1{
     font-family: 'Montserrat', sans-serif;
     color: aliceblue;
     font-size: medium;
@@ -76,60 +118,38 @@ body{
     margin: 20px 55px 20px;
     float: right;   
 }
-
-#img-pedidos2{
-    margin-left: 55px;
-    margin-top: 30px;
-    width: 350px;
-    height: 200px;
-    float: left;
-}
-
-#usuario{
+#comprarMenu2{
     font-family: 'Montserrat', sans-serif;
-    text-align: end;
-    margin-right: 55px;
+    color: aliceblue;
+    font-size: medium;
+    background-color: #fa2929;
+    border-color:#fa2929 ;
+    height: 30px;
+    width: 163px;
+    margin: 20px 55px 20px;
+    float: right;   
 }
-#texto-hamburguesa2{
+#comprarMenu3{
     font-family: 'Montserrat', sans-serif;
-    float: left;
+    color: aliceblue;
+    font-size: medium;
+    background-color: #fa2929;
+    border-color:#fa2929 ;
+    height: 30px;
+    width: 163px;
+    margin: 20px 55px 20px;
+    float: right;   
 }
-
-#texto3{
+#comprarMenu4{
     font-family: 'Montserrat', sans-serif;
-    display: inline-block;
-}
-
-#precio-final-hamburguesa2{
-    font-family: 'Montserrat', sans-serif;
-    font-size: xx-large;
-    display: inline-block;
-    margin-right: 55px;
-}
-
-#img-pedidos3{
-    margin-left: 55px;
-    margin-top: 30px;
-    width: 350px;
-    height: 200px;
-    float: left;
-}
-
-#texto-hamburguesa3{
-    font-family: 'Montserrat', sans-serif;
-    float: left;
-}
-
-#texto4{
-    font-family: 'Montserrat', sans-serif;
-    display: inline-block;
-}
-
-#precio-final-hamburguesa3{
-    font-family: 'Montserrat', sans-serif;
-    font-size: xx-large;
-    display: inline-block;
-    margin-right: 55px;
+    color: aliceblue;
+    font-size: medium;
+    background-color: #fa2929;
+    border-color:#fa2929 ;
+    height: 30px;
+    width: 163px;
+    margin: 20px 55px 20px;
+    float: right;   
 }
 
 .pie-de-pagina{

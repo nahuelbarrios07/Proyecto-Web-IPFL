@@ -6,3 +6,5 @@ function cerrarSesion(){
     window.location.href = "HOME.html";
     return false;
 }
+
+
