@@ -8,6 +8,7 @@ INSERT INTO usuario (id_usuario,nombre_usuario,contraseña,direccion) VALUES ('A
 INSERT INTO usuario (id_usuario,nombre_usuario,contraseña,direccion) VALUES ('A006','florencia_vazquez','flopi#21-55!!','Entre Rios 756');
 INSERT INTO usuario (id_usuario,nombre_usuario,contraseña,direccion) VALUES ('A007','agustina_corvalan','agus-sarandi1256#!','Corrientes 455');
 INSERT INTO usuario (id_usuario,nombre_usuario,contraseña,direccion) VALUES ('A008','thiago_corvalan','thiagonico#4500','Corrientes 2300');
+INSERT INTO usuario (id_usuario,nombre_usuario,contraseña,direccion) VALUES ('A009','Jorge_mendez','mendez0088','Av. Mosconi 178');
 
 --Ingreso de registros en la tabla producto.
 
@@ -19,6 +20,7 @@ INSERT INTO producto (id_producto,descripcion,proveedor) VALUES ('PR005','Box 12
 INSERT INTO producto (id_producto,descripcion,proveedor) VALUES ('PR006','Alfajores helados de chocolate','Grido');
 INSERT INTO producto (id_producto,descripcion,proveedor) VALUES ('PR007','Pizzas de jamon y queso Frizzio','Grido');
 INSERT INTO producto (id_producto,descripcion,proveedor) VALUES ('PR008','1 docena de empanadas (a eleccion)','El Noble');
+INSERT INTO producto (id_producto,descripcion,proveedor) VALUES ('PR009','Combo 6 piezas  (3 burritos y 3 tacos a eleccion)','Lupita');
 
 --Ingreso de registros en la tabla pedido.
 
@@ -30,6 +32,7 @@ INSERT INTO pedido (producto,usuario,cantidad,id_factura,monto) VALUES ('Alfajor
 INSERT INTO pedido (producto,usuario,cantidad,id_factura,monto) VALUES ('Pizza Frizzio','natalia_correa',2,'F008',2700.00);
 INSERT INTO pedido (producto,usuario,cantidad,id_factura,monto) VALUES ('Pizza Especial','florencia_vazquez',2,'F007',3100.00);
 INSERT INTO pedido (producto,usuario,cantidad,id_factura,monto) VALUES ('Pizza Especial','hernan_gonzalez',1,'F004',1550.00);
+INSERT INTO pedido (producto,usuario,cantidad,id_factura,monto) VALUES ('Combo 6 piezas','Jorge_mendez',1,'F009',5500.00);
 
 --Ingreso de registros en la tabla factura.
 
@@ -41,3 +44,4 @@ INSERT INTO factura (id_factura,monto,tipo_pago) VALUES ('F005',720.00,'credito'
 INSERT INTO factura (id_factura,monto,tipo_pago) VALUES ('F006',1200.30,'credito');
 INSERT INTO factura (id_factura,monto,tipo_pago) VALUES ('F007',300.00,'aplicacion');
 INSERT INTO factura (id_factura,monto,tipo_pago) VALUES ('F008',450.55,'credito');
+INSERT INTO factura (id_factura,monto,tipo_pago) VALUES ('F009',4500.55,'credito');
