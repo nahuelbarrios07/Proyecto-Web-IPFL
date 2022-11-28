@@ -1,4 +1,3 @@
-
 body {
 	background-color: #fa0050;
 }
@@ -34,16 +33,27 @@ body {
     height: 40px;
     background: white;
     color: rgb(0, 0, 0);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 15px;
     border: none;
     cursor: pointer;
-
 }
 
 .boton:hover{
     color: white;
     background-color: #fc155e;
+}
+
+#contrasena{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+    text-align: center;
+}
+
+#usuario{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+    text-align: center;
 }
 
 .btn-abrir-popup {
@@ -54,7 +64,7 @@ body {
     height: 40px;
     background: white;
     color: rgb(0, 0, 0);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 15px;
     border: none;
 	transition: .3s ease all;
@@ -268,5 +278,3 @@ body {
 	font-size: 7px;
 	border-radius: 100%;
   }
-
-  

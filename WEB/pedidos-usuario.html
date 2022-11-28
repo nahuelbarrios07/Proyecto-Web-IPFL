@@ -5,10 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="pedidos-usuario.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="icon" href="imagenes/Logo Pedidos Ya.png">
-    <script src="ir-a-3ra-pantalla.js"></script>
     <script src="sesion-usuario-2da-pant.js"></script>
-    <title>Pedidos Ya</title>
+    <title>Combos del día | Pedidos Ya</title>
 </head>
 <body>
     <!--Logo de Pedidos Ya-->
@@ -28,7 +33,8 @@
         <aside><h1 id="texto2">Combo Burger</h1>
         <h2 id="texto3">Hamburguesa completa + vaso de gaseosa grande (a elección) <br> + papas fritas medianas</h2>
         <h2 id="precio-final">$1400,00</h2>
-        <input type="button" value="Comprar Menu" id="comprarMenu1" onclick="comprarMenu()"></aside>
+        <input type="button" value="Comprar Menu" id="comprarMenu1" onclick="comprarMenu1()"></aside>
+        <script src="menu-uno-3ra-pantalla.js"></script>
     </div>
     <!--2do combo-->
     <div class="menu2">
@@ -37,7 +43,8 @@
         <aside><h1 id="texto2">Combo Familiar XXL Burger</h1>
         <h2 id="texto3">Dos BIG MC + Cuarto de LIBRA + Mc Pollo <br> + 4 papas y gaseosa grandes.</h2>
         <h2 id="precio-final">$5000,00</h2>
-        <input type="button" value="Comprar Menu" id="comprarMenu2" onclick="comprarMenu()"> </aside>
+        <input type="button" value="Comprar Menu" id="comprarMenu2" onclick="comprarMenu2()"> </aside>
+        <script src="menu-dos-3ra-pantalla.js"></script>
     </div>
      <!--3er combo-->
      <div class="menu3">
@@ -46,7 +53,8 @@
         <aside><h1 id="texto2">Combo Familiar Burger</h1>
         <h2 id="texto3">BiG MC + Cuarto de Libra + Cajita Feliz <br> + papas y gaseosas regulares.</h2>
         <h2 id="precio-final">$3750,00</h2>
-        <input type="button" value="Comprar Menu" id="comprarMenu3" onclick="comprarMenu()"> </aside>
+        <input type="button" value="Comprar Menu" id="comprarMenu3" onclick="comprarMenu3()"> </aside>
+        <script src="menu-tres-3ra-pantalla.js"></script>
     </div>
     <!--4to combo-->
     <div class="menu4">
@@ -54,13 +62,14 @@
         <h1 id="texto2">Combo Napo</h1>
         <h2 id="texto3">Pizza Napolitana grande  <br> + cerveza 1Lt </h2>
         <h2 id="precio-final">$3000,00</h2>
-        <input type="button" value="Comprar Menu" id="comprarMenu4" onclick="comprarMenu()">
+        <input type="button" value="Comprar Menu" id="comprarMenu4" onclick="comprarMenu4()">
+        <script src="menu-cuatro-3ra-pantalla.js"></script>
     </div>
-
-    <footer>
-        <img id="encabezado-final" src="https://www.vp.com.uy/images/logo-confia-2.png" alt="Pedidos Ya">
-        <p id="pie-de-pagina">Este es una página web creada por Matías Romero, Emmanuel González y Nahuel Barrios <br>
-        para el proyecto de Programación Web del IPFL.</p>
-    </footer>
+    <!--Pie de página-->
+        <footer class="encabezado-final">
+            <p>Este es una página web creada por Matías Romero, Emmanuel González y Nahuel Barrios <br>
+            para el proyecto de Programación Web del IPFL.</p>
+        </footer>
+    </div>
 </body>
 </html>

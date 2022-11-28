@@ -5,7 +5,7 @@ function validarPedido(){
     let direccion = document.getElementById("direccion-pedido").value;
     let cantidad = document.getElementById("cantidad").value;
     let validacion = document.getElementById("validacion-pedido").value;
-
-    alert("Tu pedido esta en preparacion!! \nSera enviado a: "+direccion);
     
+    alert("Tu pedido esta en preparacion!! \nSera enviado a: "+direccion);
+    window.location.href = "pedidos-usuario.html";
 }

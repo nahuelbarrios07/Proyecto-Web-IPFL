@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pedidos-usuario.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="icon" href="imagenes/Logo Pedidos Ya.png">
+    <link rel="stylesheet" href="envio-de-pedido.css">
+    <script src="sesion-usuario-3ra-pant.js"></script>
+    <script src="validar-pedido.js"></script>
+    <title>Envío del pedido | Pedidos Ya</title>
+</head>
+<body>
+    <!--Logo de Pedidos Ya-->
+    <header>
+        <div>
+            <img id="encabezado" src="https://www.vp.com.uy/images/logo-confia-2.png" alt="Logo Pedidos Ya">
+            <input id="cerrar-sesion" type="button" value="Cerrar sesión" onclick="cerrarSesion()">
+        </div>
+    </header>
+    <!--Formulario para enviar pedido-->
+    <div class="formulario">
+        <h2>¡Hola!</h2>
+        <p>Ya falta muy poco para que llegue tu pedido. <br> Ahora te pediremos los siguientes datos para que llegue a destino.</p>
+        <form action="">
+            <input type="text" id="nombre-usuario" placeholder="Usuario"> <br>
+            <input type="text" id="direccion-pedido" placeholder="Escriba la dirección"> <br>
+            <input type="text" id="cantidad" placeholder="Indique la cantidad"> <br>
+            <input type="button" value="Calcular total" id="calculo-pedido" onclick="calcularTotalMenu1()">
+            <input type="button" value="Aceptar" id="validacion-pedido" onclick="validarPedido()">
+        </form>
+    </div>
+    <div>
+        <script src="calculo-menu1.js"></script>
+    </div>
+</body>
+</html>

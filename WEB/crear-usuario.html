@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="crear-usuario.css">
+    <link rel="icon" href="imagenes/Logo Pedidos Ya.png">
+    <script src="crear-nuevo-usuario.js"></script>
+    <title>Crear Usuario | Pedidos Ya</title>
+</head>
+<body>
+    <!--Logo de Pedidos Ya-->
+    <header>
+        <div>
+            <img id="encabezado" src="https://www.vp.com.uy/images/logo-confia-2.png" alt="Logo Pedidos Ya">
+        </div>
+    </header>
+    <!--Formulario para crear un nuevo usuario-->
+    <div class="nuevo-usuario">
+        <h2>Crea un nuevo usuario</h2>
+        <p>Y comenzá a disfrutar de Pedidos Ya</p>
+        <form action="">
+            <input type="text" id="nombre-apellido" placeholder="Nombre y apellido"> <br>
+            <input type="text" id="nuevo-usuario" placeholder="Usuario"> <br>
+            <input type="password" id="password" placeholder="Crea una contraseña"> <br>
+            <input type="password" id="password2" placeholder="Repetí la contraseña creada"> <br>
+            <input type="button" value="Crear usuario" id="validacion-usuario" onclick="crearUsuario()">
+        </form>
+    </div>    
+</body>
+</html>

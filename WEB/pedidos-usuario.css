@@ -4,23 +4,17 @@ body{
 }
 
 #encabezado{
-    background-color: #ff004c;
+    background-color: #fa0050;
     padding-left: 25px;
-    padding-right: 1200px;
+    padding-right: 1084px;
 	height: 70px;
     width: 240px;
 }
 
-#encabezado-final{
-    background-color: #ff004c;
-    padding-left: 1200px;
-    padding-right: 25px;
-	height: 70px;
-    width: 240px;
-}
-
-#pie-de-pagina{
-    background-color: #ff004c;
+.encabezado-final{
+    background-color: #fa0050;
+    padding-top: 20px;
+    padding-bottom: 20px;
     font-family: 'Montserrat', sans-serif;
     color: white;
     text-align: center;
@@ -30,8 +24,12 @@ body{
     margin-left: 1220px;
     font-family: 'Montserrat', sans-serif;
     color: white;
-    background-color: #fa2929;
-    border-color:#fa2929 ;
+    background-color: #fa0050;
+    height: 30px;
+    width: 120px;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
 }
 
 .título{
@@ -69,13 +67,11 @@ body{
     margin-right: 55px;
 }
 
-
-
 #menu{
     width: 50%;
     margin: 20px auto;
     padding: 15px;
-  }
+}
 
 #img-pedidos{
     float: left;
@@ -92,12 +88,11 @@ body{
 
 #texto2{
     font-family: 'Montserrat', sans-serif;
-    
 }
 
 #texto3{
     font-family: 'Montserrat', sans-serif;
-    
+    font-weight: 400;
 }
 
 #precio-final{
@@ -111,49 +106,54 @@ body{
     font-family: 'Montserrat', sans-serif;
     color: aliceblue;
     font-size: medium;
-    background-color: #fa2929;
-    border-color:#fa2929 ;
+    background-color: #fa0050;
     height: 30px;
     width: 163px;
     margin: 20px 55px 20px;
-    float: right;   
+    float: right;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+
 }
 #comprarMenu2{
     font-family: 'Montserrat', sans-serif;
     color: aliceblue;
     font-size: medium;
-    background-color: #fa2929;
-    border-color:#fa2929 ;
+    background-color: #fa0050;
     height: 30px;
     width: 163px;
     margin: 20px 55px 20px;
-    float: right;   
+    float: right;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
 }
+
 #comprarMenu3{
     font-family: 'Montserrat', sans-serif;
     color: aliceblue;
     font-size: medium;
-    background-color: #fa2929;
-    border-color:#fa2929 ;
+    background-color: #fa0050;
     height: 30px;
     width: 163px;
     margin: 20px 55px 20px;
-    float: right;   
+    float: right;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;   
 }
 #comprarMenu4{
     font-family: 'Montserrat', sans-serif;
     color: aliceblue;
     font-size: medium;
-    background-color: #fa2929;
-    border-color:#fa2929 ;
+    background-color: #fa0050;
     height: 30px;
     width: 163px;
     margin: 20px 55px 20px;
-    float: right;   
+    float: right;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;  
 }
 
-.pie-de-pagina{
-    background-color: #ff004c;
-    color: azure;
-    font-family: 'Montserrat', sans-serif;
-}
