@@ -2,7 +2,7 @@
 
 CREATE DATABASE "Pedidos Ya";
 
---Creacion de la tabla usuario de la Base de Datos Pedidos Ya.
+--Creacion de la tabla usuarios de la Base de Datos Pedidos Ya.
 
 CREATE TABLE "usuario"(
     id_usuario VARCHAR (20) PRIMARY KEY,
@@ -11,7 +11,7 @@ CREATE TABLE "usuario"(
     direccion VARCHAR (100)
 )
 
---Creacion de la tabla producto de la Base de Datos Pedidos Ya.
+--Creacion de la tabla productos de la Base de Datos Pedidos Ya.
 
 CREATE TABLE "producto"(
     id_producto VARCHAR(20) PRIMARY KEY,
@@ -19,7 +19,7 @@ CREATE TABLE "producto"(
     proveedor VARCHAR (150)
 )
 
---Creacion de la tabla pedido de la Base de Datos Pedidos Ya.
+--Creacion de la tabla pedidos de la Base de Datos Pedidos Ya.
 
 CREATE TABLE "pedido"(
     producto VARCHAR (100),
